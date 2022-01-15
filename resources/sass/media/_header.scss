@@ -1,0 +1,24 @@
+@media screen and (max-width: 575px) {
+    #add_company__btn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main_menu {
+        display: none;
+    }
+    .mobile_menu {
+        display: block;
+
+    }
+}
+@media (min-width: 768px) {
+    .main_menu {
+        display: flex;
+    }
+    .mobile_menu {
+        display: none;
+
+    }
+}

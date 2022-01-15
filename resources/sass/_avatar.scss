@@ -1,0 +1,22 @@
+.img_avatar {
+    display: flex;
+    width: 100px;
+    margin: 10px 0 0 0;
+    position: relative;
+    padding-left: 0;
+    .btn_delete_x{
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+    }
+    .img{
+        display: block;
+        object-fit: cover;
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+        margin: 0 10px 0 0;
+        border: 1px solid #b8b8b8;
+    }
+}

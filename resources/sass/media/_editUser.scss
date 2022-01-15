@@ -1,0 +1,48 @@
+@media screen and (max-width: 575px) {
+    .edit_block_user {
+        margin-top: 10px;
+
+        .card {
+            font-size: 8px !important;
+
+            .form-control {
+                font-size: 6px;
+            }
+
+            #upload {
+                display: block;
+            }
+
+            .drag-and-drop {
+                display: none !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .images-list {
+        width: 80px;
+        height: 80px;
+        padding-left: calc(var(--bs-gutter-x) * 0.5);
+        .images-list-picture {
+            width: 80px;
+            height: 80px;
+        }
+        .btn_close_x {
+            right: -15px;
+        }
+    }
+    .img_avatar {
+        width: 80px;
+        height: 80px;
+        padding-left: calc(var(--bs-gutter-x) * 0.5);
+        .img {
+            width: 80px;
+            height: 80px;
+        }
+        .btn_delete_x {
+            right: -15px;
+        }
+    }
+}

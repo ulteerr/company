@@ -1,0 +1,33 @@
+footer {
+    background-color: #333333;
+    border-radius: 10px;
+    color: aliceblue;
+
+    .all_rights {
+        margin: auto;
+    }
+
+    .social {
+        align-items: center;
+        background-color: #333;
+        padding: 20px 20px;
+
+        i {
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            border-radius: 50%;
+            background: silver;
+            margin-left: 5px;
+            color: #333;
+            transition: all 600ms ease;
+        }
+
+        i:hover {
+            transition: all 600ms ease;
+            transform: translateY(-5px);
+        }
+    }
+}

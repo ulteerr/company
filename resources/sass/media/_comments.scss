@@ -1,0 +1,32 @@
+@media screen and (max-width: 575px) {
+    .comments {
+        .content_comments {
+            display: block;
+            margin: auto auto;
+            padding: 0 10px;
+            img.img-media {
+                display: block;
+                margin: 5px auto;
+            }
+            .body_comments{
+                display: flex;
+                .comment_user_name,{
+                    display: block;
+                    margin: 5px auto;
+                    text-align: center;
+                    p {
+                        margin: 0;
+                    }
+                }
+                .comment_user_name p::after{
+                   display: none;
+                    margin: 0;
+                }
+                .comment_block {
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
